@@ -1,0 +1,1987 @@
+[
+  {
+    "id": "prod001",
+    "name": "Italian Espresso Machine",
+    "category": "Home Appliances",
+    "origin": "Italy",
+    "price": 299.99,
+    "availability": "In Stock",
+    "description": "A high-quality espresso machine designed for coffee enthusiasts.",
+    "dimensions": {
+      "height": "12 inches",
+      "width": "8 inches",
+      "depth": "10 inches"
+    },
+    "materials": ["stainless steel", "plastic"],
+    "reviews": [
+      {
+        "user": "CoffeeLover123",
+        "rating": 5,
+        "comment": "Best espresso machine I've ever owned!"
+      },
+      {
+        "user": "BaristaPro",
+        "rating": 4,
+        "comment": "Great value for the price."
+      }
+    ]
+  },
+  {
+    "id": "prod002",
+    "name": "Japanese Matcha Tea Set",
+    "category": "Food & Beverage",
+    "origin": "Japan",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A traditional matcha tea set including a whisk, bowl, and premium matcha powder.",
+    "ingredients": ["matcha powder"],
+    "dimensions": {
+      "height": "6 inches",
+      "width": "6 inches",
+      "depth": "4 inches"
+    },
+    "reviews": [
+      {
+        "user": "TeaEnthusiast",
+        "rating": 5,
+        "comment": "Authentic and high-quality matcha set."
+      }
+    ]
+  },
+  {
+    "id": "prod003",
+    "name": "Swiss Chocolate Assortment",
+    "category": "Food & Beverage",
+    "origin": "Switzerland",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A luxurious assortment of Swiss chocolates in a gift box.",
+    "ingredients": ["cocoa", "milk", "sugar", "hazelnuts"],
+    "reviews": [
+      {
+        "user": "Chocoholic",
+        "rating": 5,
+        "comment": "Absolutely delicious! Perfect gift."
+      }
+    ]
+  },
+  {
+    "id": "prod004",
+    "name": "French Perfume",
+    "category": "Beauty & Personal Care",
+    "origin": "France",
+    "price": 89.99,
+    "availability": "In Stock",
+    "description": "A classic French perfume with floral and musky notes.",
+    "ingredients": ["alcohol", "fragrance oils"],
+    "dimensions": {
+      "height": "3 inches",
+      "width": "2 inches",
+      "depth": "1 inch"
+    },
+    "reviews": [
+      {
+        "user": "FragranceFan",
+        "rating": 4,
+        "comment": "Elegant and long-lasting scent."
+      }
+    ]
+  },
+  {
+    "id": "prod005",
+    "name": "German Beer Stein",
+    "category": "Home & Kitchen",
+    "origin": "Germany",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A traditional German beer stein with intricate designs.",
+    "materials": ["ceramic", "metal"],
+    "dimensions": {
+      "height": "10 inches",
+      "width": "5 inches",
+      "depth": "5 inches"
+    },
+    "reviews": [
+      {
+        "user": "BeerLover",
+        "rating": 5,
+        "comment": "Perfect for Oktoberfest!"
+      }
+    ]
+  },
+  {
+    "id": "prod006",
+    "name": "Indian Spice Box",
+    "category": "Food & Beverage",
+    "origin": "India",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A set of authentic Indian spices for cooking traditional dishes.",
+    "ingredients": ["turmeric", "cumin", "coriander", "cardamom", "cloves"],
+    "reviews": [
+      {
+        "user": "CurryMaster",
+        "rating": 5,
+        "comment": "Essential for Indian cooking!"
+      }
+    ]
+  },
+  {
+    "id": "prod007",
+    "name": "Turkish Handwoven Rug",
+    "category": "Home Decor",
+    "origin": "Turkey",
+    "price": 199.99,
+    "availability": "In Stock",
+    "description": "A handwoven rug with traditional Turkish patterns.",
+    "materials": ["wool", "cotton"],
+    "dimensions": {
+      "height": "6 feet",
+      "width": "4 feet"
+    },
+    "reviews": [
+      {
+        "user": "HomeDecorFan",
+        "rating": 5,
+        "comment": "Beautiful and high-quality rug."
+      }
+    ]
+  },
+  {
+    "id": "prod008",
+    "name": "Brazilian Coffee Beans",
+    "category": "Food & Beverage",
+    "origin": "Brazil",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "Premium Arabica coffee beans from Brazil.",
+    "ingredients": ["coffee beans"],
+    "reviews": [
+      {
+        "user": "CoffeeSnob",
+        "rating": 5,
+        "comment": "Rich and flavorful coffee."
+      }
+    ]
+  },
+  {
+    "id": "prod009",
+    "name": "Mexican Handcrafted Pottery",
+    "category": "Home Decor",
+    "origin": "Mexico",
+    "price": 59.99,
+    "availability": "In Stock",
+    "description": "Colorful handcrafted pottery made by Mexican artisans.",
+    "materials": ["clay", "paint"],
+    "dimensions": {
+      "height": "8 inches",
+      "width": "8 inches",
+      "depth": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "ArtLover",
+        "rating": 5,
+        "comment": "Stunning craftsmanship!"
+      }
+    ]
+  },
+  {
+    "id": "prod010",
+    "name": "Australian Wool Blanket",
+    "category": "Home & Kitchen",
+    "origin": "Australia",
+    "price": 79.99,
+    "availability": "In Stock",
+    "description": "A warm and cozy wool blanket made from Australian sheep.",
+    "materials": ["wool"],
+    "dimensions": {
+      "height": "80 inches",
+      "width": "60 inches"
+    },
+    "reviews": [
+      {
+        "user": "CozyHome",
+        "rating": 5,
+        "comment": "Super soft and warm."
+      }
+    ]
+  },
+
+  {
+    "id": "prod011",
+    "name": "Korean Skincare Set",
+    "category": "Beauty & Personal Care",
+    "origin": "South Korea",
+    "price": 69.99,
+    "availability": "In Stock",
+    "description": "A complete skincare set featuring Korean beauty products.",
+    "ingredients": ["hyaluronic acid", "snail mucin", "green tea extract"],
+    "dimensions": {
+      "height": "8 inches",
+      "width": "6 inches",
+      "depth": "3 inches"
+    },
+    "reviews": [
+      {
+        "user": "GlowGetter",
+        "rating": 5,
+        "comment": "My skin has never looked better!"
+      }
+    ]
+  },
+  {
+    "id": "prod012",
+    "name": "Canadian Maple Syrup",
+    "category": "Food & Beverage",
+    "origin": "Canada",
+    "price": 12.99,
+    "availability": "In Stock",
+    "description": "Pure maple syrup harvested from Canadian maple trees.",
+    "ingredients": ["maple syrup"],
+    "reviews": [
+      {
+        "user": "PancakeLover",
+        "rating": 5,
+        "comment": "The best maple syrup I've ever tasted."
+      }
+    ]
+  },
+  {
+    "id": "prod013",
+    "name": "Egyptian Cotton Sheets",
+    "category": "Home & Kitchen",
+    "origin": "Egypt",
+    "price": 89.99,
+    "availability": "In Stock",
+    "description": "Luxurious bed sheets made from 100% Egyptian cotton.",
+    "materials": ["cotton"],
+    "dimensions": {
+      "height": "102 inches",
+      "width": "90 inches"
+    },
+    "reviews": [
+      {
+        "user": "SleepyHead",
+        "rating": 5,
+        "comment": "Incredibly soft and comfortable."
+      }
+    ]
+  },
+  {
+    "id": "prod014",
+    "name": "Thai Silk Scarf",
+    "category": "Fashion",
+    "origin": "Thailand",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A beautifully handwoven silk scarf from Thailand.",
+    "materials": ["silk"],
+    "dimensions": {
+      "height": "72 inches",
+      "width": "24 inches"
+    },
+    "reviews": [
+      {
+        "user": "Fashionista",
+        "rating": 5,
+        "comment": "Stunning and elegant."
+      }
+    ]
+  },
+  {
+    "id": "prod015",
+    "name": "Russian Nesting Dolls",
+    "category": "Toys & Games",
+    "origin": "Russia",
+    "price": 34.99,
+    "availability": "In Stock",
+    "description": "A set of traditional Russian nesting dolls.",
+    "materials": ["wood", "paint"],
+    "dimensions": {
+      "height": "10 inches",
+      "width": "4 inches",
+      "depth": "4 inches"
+    },
+    "reviews": [
+      {
+        "user": "ToyCollector",
+        "rating": 5,
+        "comment": "Beautifully crafted and fun to play with."
+      }
+    ]
+  },
+  {
+    "id": "prod016",
+    "name": "Spanish Olive Oil",
+    "category": "Food & Beverage",
+    "origin": "Spain",
+    "price": 24.99,
+    "availability": "In Stock",
+    "description": "Extra virgin olive oil from the olive groves of Spain.",
+    "ingredients": ["olive oil"],
+    "reviews": [
+      {
+        "user": "ChefPro",
+        "rating": 5,
+        "comment": "Perfect for cooking and salads."
+      }
+    ]
+  },
+  {
+    "id": "prod017",
+    "name": "Moroccan Leather Bag",
+    "category": "Fashion",
+    "origin": "Morocco",
+    "price": 129.99,
+    "availability": "In Stock",
+    "description": "A handcrafted leather bag made by Moroccan artisans.",
+    "materials": ["leather"],
+    "dimensions": {
+      "height": "12 inches",
+      "width": "14 inches",
+      "depth": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "Traveler123",
+        "rating": 5,
+        "comment": "Durable and stylish."
+      }
+    ]
+  },
+  {
+    "id": "prod018",
+    "name": "New Zealand Manuka Honey",
+    "category": "Food & Beverage",
+    "origin": "New Zealand",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "Pure Manuka honey with natural health benefits.",
+    "ingredients": ["Manuka honey"],
+    "reviews": [
+      {
+        "user": "HealthNut",
+        "rating": 5,
+        "comment": "Great for boosting immunity."
+      }
+    ]
+  },
+  {
+    "id": "prod019",
+    "name": "Chinese Silk Robe",
+    "category": "Fashion",
+    "origin": "China",
+    "price": 99.99,
+    "availability": "In Stock",
+    "description": "A luxurious silk robe with traditional Chinese embroidery.",
+    "materials": ["silk"],
+    "dimensions": {
+      "height": "48 inches",
+      "width": "24 inches"
+    },
+    "reviews": [
+      {
+        "user": "LuxuryLover",
+        "rating": 5,
+        "comment": "Feels like royalty wearing this."
+      }
+    ]
+  },
+  {
+    "id": "prod020",
+    "name": "Argentinian Malbec Wine",
+    "category": "Food & Beverage",
+    "origin": "Argentina",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A bottle of premium Malbec wine from Argentina.",
+    "ingredients": ["grapes"],
+    "reviews": [
+      {
+        "user": "WineConnoisseur",
+        "rating": 5,
+        "comment": "Rich and full-bodied flavor."
+      }
+    ]
+  },
+  {
+    "id": "prod021",
+    "name": "Dutch Cheese Wheel",
+    "category": "Food & Beverage",
+    "origin": "Netherlands",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A wheel of authentic Dutch Gouda cheese.",
+    "ingredients": ["milk", "salt", "bacterial culture"],
+    "reviews": [
+      {
+        "user": "CheeseFanatic",
+        "rating": 5,
+        "comment": "Creamy and delicious."
+      }
+    ]
+  },
+  {
+    "id": "prod022",
+    "name": "South African Rooibos Tea",
+    "category": "Food & Beverage",
+    "origin": "South Africa",
+    "price": 9.99,
+    "availability": "In Stock",
+    "description": "A pack of organic Rooibos tea from South Africa.",
+    "ingredients": ["Rooibos leaves"],
+    "reviews": [
+      {
+        "user": "TeaLover",
+        "rating": 5,
+        "comment": "Soothing and caffeine-free."
+      }
+    ]
+  },
+  {
+    "id": "prod023",
+    "name": "Irish Wool Sweater",
+    "category": "Fashion",
+    "origin": "Ireland",
+    "price": 89.99,
+    "availability": "In Stock",
+    "description": "A warm and cozy wool sweater handknitted in Ireland.",
+    "materials": ["wool"],
+    "dimensions": {
+      "height": "28 inches",
+      "width": "22 inches"
+    },
+    "reviews": [
+      {
+        "user": "WinterReady",
+        "rating": 5,
+        "comment": "Perfect for cold weather."
+      }
+    ]
+  },
+  {
+    "id": "prod024",
+    "name": "Peruvian Alpaca Blanket",
+    "category": "Home & Kitchen",
+    "origin": "Peru",
+    "price": 119.99,
+    "availability": "In Stock",
+    "description": "A soft and warm blanket made from Peruvian alpaca wool.",
+    "materials": ["alpaca wool"],
+    "dimensions": {
+      "height": "80 inches",
+      "width": "60 inches"
+    },
+    "reviews": [
+      {
+        "user": "CozyNights",
+        "rating": 5,
+        "comment": "Incredibly soft and luxurious."
+      }
+    ]
+  },
+  {
+    "id": "prod025",
+    "name": "Greek Olive Wood Bowl",
+    "category": "Home Decor",
+    "origin": "Greece",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A hand-carved olive wood bowl from Greece.",
+    "materials": ["olive wood"],
+    "dimensions": {
+      "height": "4 inches",
+      "width": "8 inches",
+      "depth": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "HomeChef",
+        "rating": 5,
+        "comment": "Beautiful and functional."
+      }
+    ]
+  },
+
+  {
+    "id": "prod026",
+    "name": "Italian Leather Shoes",
+    "category": "Fashion",
+    "origin": "Italy",
+    "price": 149.99,
+    "availability": "In Stock",
+    "description": "Handcrafted leather shoes made in Italy.",
+    "materials": ["leather", "rubber"],
+    "dimensions": {
+      "height": "6 inches",
+      "width": "4 inches",
+      "depth": "10 inches"
+    },
+    "reviews": [
+      {
+        "user": "ShoeLover",
+        "rating": 5,
+        "comment": "Extremely comfortable and stylish."
+      }
+    ]
+  },
+  {
+    "id": "prod027",
+    "name": "Japanese Sake Set",
+    "category": "Food & Beverage",
+    "origin": "Japan",
+    "price": 59.99,
+    "availability": "In Stock",
+    "description": "A traditional sake set including a bottle and cups.",
+    "materials": ["ceramic", "glass"],
+    "dimensions": {
+      "height": "8 inches",
+      "width": "6 inches",
+      "depth": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "SakeFan",
+        "rating": 5,
+        "comment": "Perfect for enjoying authentic sake."
+      }
+    ]
+  },
+  {
+    "id": "prod028",
+    "name": "Swiss Army Knife",
+    "category": "Tools",
+    "origin": "Switzerland",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A multi-functional pocket knife from Switzerland.",
+    "materials": ["stainless steel", "plastic"],
+    "dimensions": {
+      "height": "3 inches",
+      "width": "1 inch",
+      "depth": "1 inch"
+    },
+    "reviews": [
+      {
+        "user": "OutdoorEnthusiast",
+        "rating": 5,
+        "comment": "A must-have for any adventure."
+      }
+    ]
+  },
+  {
+    "id": "prod029",
+    "name": "French Macaron Assortment",
+    "category": "Food & Beverage",
+    "origin": "France",
+    "price": 24.99,
+    "availability": "In Stock",
+    "description": "A box of assorted French macarons.",
+    "ingredients": ["almond flour", "sugar", "egg whites", "food coloring"],
+    "reviews": [
+      {
+        "user": "DessertLover",
+        "rating": 5,
+        "comment": "Delicate and delicious."
+      }
+    ]
+  },
+  {
+    "id": "prod030",
+    "name": "German Cuckoo Clock",
+    "category": "Home Decor",
+    "origin": "Germany",
+    "price": 199.99,
+    "availability": "In Stock",
+    "description": "A traditional wooden cuckoo clock from Germany.",
+    "materials": ["wood", "metal"],
+    "dimensions": {
+      "height": "12 inches",
+      "width": "8 inches",
+      "depth": "4 inches"
+    },
+    "reviews": [
+      {
+        "user": "ClockCollector",
+        "rating": 5,
+        "comment": "A beautiful and functional piece."
+      }
+    ]
+  },
+  {
+    "id": "prod031",
+    "name": "Indian Henna Kit",
+    "category": "Beauty & Personal Care",
+    "origin": "India",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A kit for creating traditional henna designs.",
+    "ingredients": ["henna powder", "essential oils"],
+    "reviews": [
+      {
+        "user": "HennaArtist",
+        "rating": 5,
+        "comment": "High-quality henna with vibrant results."
+      }
+    ]
+  },
+  {
+    "id": "prod032",
+    "name": "Turkish Delight Assortment",
+    "category": "Food & Beverage",
+    "origin": "Turkey",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "A box of assorted Turkish delight candies.",
+    "ingredients": ["sugar", "cornstarch", "rosewater", "pistachios"],
+    "reviews": [
+      {
+        "user": "SweetTooth",
+        "rating": 5,
+        "comment": "Exotic and delicious."
+      }
+    ]
+  },
+  {
+    "id": "prod033",
+    "name": "Brazilian Havaianas Flip Flops",
+    "category": "Fashion",
+    "origin": "Brazil",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "Comfortable and colorful flip flops from Brazil.",
+    "materials": ["rubber"],
+    "dimensions": {
+      "height": "1 inch",
+      "width": "4 inches",
+      "depth": "10 inches"
+    },
+    "reviews": [
+      {
+        "user": "BeachLover",
+        "rating": 5,
+        "comment": "Perfect for the beach."
+      }
+    ]
+  },
+  {
+    "id": "prod034",
+    "name": "Mexican Hot Chocolate Kit",
+    "category": "Food & Beverage",
+    "origin": "Mexico",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A kit for making traditional Mexican hot chocolate.",
+    "ingredients": ["cocoa", "cinnamon", "sugar"],
+    "reviews": [
+      {
+        "user": "ChocolateFan",
+        "rating": 5,
+        "comment": "Rich and spicy flavor."
+      }
+    ]
+  },
+  {
+    "id": "prod035",
+    "name": "Australian Boomerang",
+    "category": "Toys & Games",
+    "origin": "Australia",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A traditional wooden boomerang from Australia.",
+    "materials": ["wood"],
+    "dimensions": {
+      "height": "24 inches",
+      "width": "6 inches",
+      "depth": "1 inch"
+    },
+    "reviews": [
+      {
+        "user": "OutdoorFun",
+        "rating": 5,
+        "comment": "Fun and easy to use."
+      }
+    ]
+  },
+  {
+    "id": "prod036",
+    "name": "Korean Kimchi Kit",
+    "category": "Food & Beverage",
+    "origin": "South Korea",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A kit for making traditional Korean kimchi.",
+    "ingredients": ["napa cabbage", "radish", "garlic", "chili powder"],
+    "reviews": [
+      {
+        "user": "KimchiLover",
+        "rating": 5,
+        "comment": "Authentic and easy to make."
+      }
+    ]
+  },
+  {
+    "id": "prod037",
+    "name": "Canadian Ice Wine",
+    "category": "Food & Beverage",
+    "origin": "Canada",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A bottle of sweet ice wine from Canada.",
+    "ingredients": ["grapes"],
+    "reviews": [
+      {
+        "user": "WineLover",
+        "rating": 5,
+        "comment": "Sweet and luxurious."
+      }
+    ]
+  },
+  {
+    "id": "prod038",
+    "name": "Egyptian Papyrus Art",
+    "category": "Home Decor",
+    "origin": "Egypt",
+    "price": 79.99,
+    "availability": "In Stock",
+    "description": "A hand-painted papyrus artwork from Egypt.",
+    "materials": ["papyrus", "paint"],
+    "dimensions": {
+      "height": "18 inches",
+      "width": "12 inches"
+    },
+    "reviews": [
+      {
+        "user": "ArtCollector",
+        "rating": 5,
+        "comment": "A unique and beautiful piece."
+      }
+    ]
+  },
+  {
+    "id": "prod039",
+    "name": "Thai Coconut Bowl Set",
+    "category": "Home & Kitchen",
+    "origin": "Thailand",
+    "price": 34.99,
+    "availability": "In Stock",
+    "description": "A set of eco-friendly coconut bowls from Thailand.",
+    "materials": ["coconut shell"],
+    "dimensions": {
+      "height": "4 inches",
+      "width": "6 inches",
+      "depth": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "EcoFriendly",
+        "rating": 5,
+        "comment": "Sustainable and stylish."
+      }
+    ]
+  },
+  {
+    "id": "prod040",
+    "name": "Russian Samovar",
+    "category": "Home & Kitchen",
+    "origin": "Russia",
+    "price": 149.99,
+    "availability": "In Stock",
+    "description": "A traditional Russian tea-making device.",
+    "materials": ["metal"],
+    "dimensions": {
+      "height": "14 inches",
+      "width": "10 inches",
+      "depth": "10 inches"
+    },
+    "reviews": [
+      {
+        "user": "TeaLover",
+        "rating": 5,
+        "comment": "A beautiful and functional piece."
+      }
+    ]
+  },
+  {
+    "id": "prod041",
+    "name": "Spanish Flamenco Dress",
+    "category": "Fashion",
+    "origin": "Spain",
+    "price": 199.99,
+    "availability": "In Stock",
+    "description": "A traditional flamenco dress from Spain.",
+    "materials": ["cotton", "lace"],
+    "dimensions": {
+      "height": "40 inches",
+      "width": "20 inches"
+    },
+    "reviews": [
+      {
+        "user": "DanceEnthusiast",
+        "rating": 5,
+        "comment": "Stunning and comfortable."
+      }
+    ]
+  },
+  {
+    "id": "prod042",
+    "name": "Moroccan Argan Oil",
+    "category": "Beauty & Personal Care",
+    "origin": "Morocco",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "Pure argan oil for hair and skin.",
+    "ingredients": ["argan oil"],
+    "reviews": [
+      {
+        "user": "BeautyGuru",
+        "rating": 5,
+        "comment": "Hydrating and nourishing."
+      }
+    ]
+  },
+  {
+    "id": "prod043",
+    "name": "New Zealand Green Lipped Mussel Oil",
+    "category": "Health & Wellness",
+    "origin": "New Zealand",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A supplement for joint health.",
+    "ingredients": ["green lipped mussel oil"],
+    "reviews": [
+      {
+        "user": "HealthEnthusiast",
+        "rating": 5,
+        "comment": "Great for joint support."
+      }
+    ]
+  },
+  {
+    "id": "prod044",
+    "name": "Chinese Tea Set",
+    "category": "Home & Kitchen",
+    "origin": "China",
+    "price": 59.99,
+    "availability": "In Stock",
+    "description": "A traditional Chinese tea set with a teapot and cups.",
+    "materials": ["ceramic"],
+    "dimensions": {
+      "height": "6 inches",
+      "width": "8 inches",
+      "depth": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "TeaDrinker",
+        "rating": 5,
+        "comment": "Elegant and functional."
+      }
+    ]
+  },
+  {
+    "id": "prod045",
+    "name": "Argentinian Alfajores",
+    "category": "Food & Beverage",
+    "origin": "Argentina",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "A box of traditional Argentine cookies filled with dulce de leche.",
+    "ingredients": ["flour", "butter", "sugar", "dulce de leche"],
+    "reviews": [
+      {
+        "user": "CookieLover",
+        "rating": 5,
+        "comment": "Sweet and delicious."
+      }
+    ]
+  },
+  {
+    "id": "prod046",
+    "name": "Dutch Stroopwafels",
+    "category": "Food & Beverage",
+    "origin": "Netherlands",
+    "price": 9.99,
+    "availability": "In Stock",
+    "description": "A pack of traditional Dutch caramel-filled waffle cookies.",
+    "ingredients": ["flour", "butter", "sugar", "caramel"],
+    "reviews": [
+      {
+        "user": "SweetTooth",
+        "rating": 5,
+        "comment": "Perfect with coffee or tea."
+      }
+    ]
+  },
+  {
+    "id": "prod047",
+    "name": "South African Biltong",
+    "category": "Food & Beverage",
+    "origin": "South Africa",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A pack of dried and cured meat snacks from South Africa.",
+    "ingredients": ["beef", "vinegar", "spices"],
+    "reviews": [
+      {
+        "user": "SnackLover",
+        "rating": 5,
+        "comment": "Savory and satisfying."
+      }
+    ]
+  },
+  {
+    "id": "prod048",
+    "name": "Irish Whiskey",
+    "category": "Food & Beverage",
+    "origin": "Ireland",
+    "price": 59.99,
+    "availability": "In Stock",
+    "description": "A bottle of premium Irish whiskey.",
+    "ingredients": ["barley", "water", "yeast"],
+    "reviews": [
+      {
+        "user": "WhiskeyFan",
+        "rating": 5,
+        "comment": "Smooth and flavorful."
+      }
+    ]
+  },
+  {
+    "id": "prod049",
+    "name": "Peruvian Pima Cotton T-Shirt",
+    "category": "Fashion",
+    "origin": "Peru",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A soft and durable T-shirt made from Peruvian Pima cotton.",
+    "materials": ["Pima cotton"],
+    "dimensions": {
+      "height": "28 inches",
+      "width": "20 inches"
+    },
+    "reviews": [
+      {
+        "user": "ComfortLover",
+        "rating": 5,
+        "comment": "Incredibly soft and comfortable."
+      }
+    ]
+  },
+  {
+    "id": "prod050",
+    "name": "Greek Olive Oil Soap",
+    "category": "Beauty & Personal Care",
+    "origin": "Greece",
+    "price": 9.99,
+    "availability": "In Stock",
+    "description": "A natural soap made with Greek olive oil.",
+    "ingredients": ["olive oil", "lye", "water"],
+    "reviews": [
+      {
+        "user": "EcoFriendly",
+        "rating": 5,
+        "comment": "Gentle and moisturizing."
+      }
+    ]
+  },
+
+  {
+    "id": "prod051",
+    "name": "Italian Leather Wallet",
+    "category": "Fashion",
+    "origin": "Italy",
+    "price": 79.99,
+    "availability": "In Stock",
+    "description": "A sleek and durable leather wallet made in Italy.",
+    "materials": ["leather"],
+    "dimensions": {
+      "height": "4 inches",
+      "width": "3 inches",
+      "depth": "0.5 inches"
+    },
+    "reviews": [
+      {
+        "user": "Fashionista",
+        "rating": 5,
+        "comment": "High-quality and stylish."
+      }
+    ]
+  },
+  {
+    "id": "prod052",
+    "name": "Japanese Green Tea",
+    "category": "Food & Beverage",
+    "origin": "Japan",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "A pack of premium Japanese green tea leaves.",
+    "ingredients": ["green tea leaves"],
+    "reviews": [
+      {
+        "user": "TeaLover",
+        "rating": 5,
+        "comment": "Refreshing and aromatic."
+      }
+    ]
+  },
+  {
+    "id": "prod053",
+    "name": "Swiss Watch",
+    "category": "Fashion",
+    "origin": "Switzerland",
+    "price": 499.99,
+    "availability": "In Stock",
+    "description": "A luxury Swiss watch with a classic design.",
+    "materials": ["stainless steel", "sapphire crystal"],
+    "dimensions": {
+      "height": "0.5 inches",
+      "width": "1.5 inches",
+      "depth": "1.5 inches"
+    },
+    "reviews": [
+      {
+        "user": "WatchEnthusiast",
+        "rating": 5,
+        "comment": "Timeless and elegant."
+      }
+    ]
+  },
+  {
+    "id": "prod054",
+    "name": "French Baguette Pan",
+    "category": "Home & Kitchen",
+    "origin": "France",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A traditional baguette baking pan from France.",
+    "materials": ["steel"],
+    "dimensions": {
+      "height": "2 inches",
+      "width": "16 inches",
+      "depth": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "BakingPro",
+        "rating": 5,
+        "comment": "Perfect for baking authentic baguettes."
+      }
+    ]
+  },
+  {
+    "id": "prod055",
+    "name": "German Beer Mug",
+    "category": "Home & Kitchen",
+    "origin": "Germany",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A traditional German beer mug with a handle.",
+    "materials": ["glass"],
+    "dimensions": {
+      "height": "6 inches",
+      "width": "4 inches",
+      "depth": "4 inches"
+    },
+    "reviews": [
+      {
+        "user": "BeerLover",
+        "rating": 5,
+        "comment": "Perfect for enjoying a cold beer."
+      }
+    ]
+  },
+  {
+    "id": "prod056",
+    "name": "Indian Turmeric Powder",
+    "category": "Food & Beverage",
+    "origin": "India",
+    "price": 9.99,
+    "availability": "In Stock",
+    "description": "A pack of pure turmeric powder for cooking and health.",
+    "ingredients": ["turmeric"],
+    "reviews": [
+      {
+        "user": "HealthNut",
+        "rating": 5,
+        "comment": "Great for cooking and natural remedies."
+      }
+    ]
+  },
+  {
+    "id": "prod057",
+    "name": "Turkish Mosaic Lamp",
+    "category": "Home Decor",
+    "origin": "Turkey",
+    "price": 89.99,
+    "availability": "In Stock",
+    "description": "A handcrafted mosaic lamp with colorful glass pieces.",
+    "materials": ["glass", "metal"],
+    "dimensions": {
+      "height": "12 inches",
+      "width": "8 inches",
+      "depth": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "HomeDecorFan",
+        "rating": 5,
+        "comment": "Beautiful and adds a unique touch to any room."
+      }
+    ]
+  },
+  {
+    "id": "prod058",
+    "name": "Brazilian Acai Bowl Set",
+    "category": "Home & Kitchen",
+    "origin": "Brazil",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A set of bowls for serving acai bowls and smoothies.",
+    "materials": ["ceramic"],
+    "dimensions": {
+      "height": "3 inches",
+      "width": "6 inches",
+      "depth": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "HealthyEater",
+        "rating": 5,
+        "comment": "Perfect for breakfast bowls."
+      }
+    ]
+  },
+  {
+    "id": "prod059",
+    "name": "Mexican Talavera Pot",
+    "category": "Home Decor",
+    "origin": "Mexico",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A hand-painted Talavera pot from Mexico.",
+    "materials": ["clay", "paint"],
+    "dimensions": {
+      "height": "10 inches",
+      "width": "8 inches",
+      "depth": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "ArtLover",
+        "rating": 5,
+        "comment": "Vibrant and beautifully crafted."
+      }
+    ]
+  },
+  {
+    "id": "prod060",
+    "name": "Australian Tea Tree Oil",
+    "category": "Beauty & Personal Care",
+    "origin": "Australia",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "Pure tea tree oil for skincare and aromatherapy.",
+    "ingredients": ["tea tree oil"],
+    "reviews": [
+      {
+        "user": "BeautyGuru",
+        "rating": 5,
+        "comment": "Great for acne and skin care."
+      }
+    ]
+  },
+  {
+    "id": "prod061",
+    "name": "Korean Sheet Mask Set",
+    "category": "Beauty & Personal Care",
+    "origin": "South Korea",
+    "price": 24.99,
+    "availability": "In Stock",
+    "description": "A set of hydrating and nourishing sheet masks.",
+    "ingredients": ["hyaluronic acid", "aloe vera", "green tea extract"],
+    "reviews": [
+      {
+        "user": "SkincareFan",
+        "rating": 5,
+        "comment": "Leaves my skin feeling refreshed."
+      }
+    ]
+  },
+  {
+    "id": "prod062",
+    "name": "Canadian Ice Cider",
+    "category": "Food & Beverage",
+    "origin": "Canada",
+    "price": 34.99,
+    "availability": "In Stock",
+    "description": "A bottle of sweet ice cider made from frozen apples.",
+    "ingredients": ["apples"],
+    "reviews": [
+      {
+        "user": "CiderLover",
+        "rating": 5,
+        "comment": "Unique and delicious."
+      }
+    ]
+  },
+  {
+    "id": "prod063",
+    "name": "Egyptian Essential Oil Set",
+    "category": "Beauty & Personal Care",
+    "origin": "Egypt",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A set of essential oils including lavender and frankincense.",
+    "ingredients": ["lavender oil", "frankincense oil", "myrrh oil"],
+    "reviews": [
+      {
+        "user": "AromaTherapyFan",
+        "rating": 5,
+        "comment": "High-quality and aromatic."
+      }
+    ]
+  },
+  {
+    "id": "prod064",
+    "name": "Thai Coconut Candle",
+    "category": "Home Decor",
+    "origin": "Thailand",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A coconut shell candle with a tropical scent.",
+    "materials": ["coconut shell", "wax"],
+    "dimensions": {
+      "height": "4 inches",
+      "width": "4 inches",
+      "depth": "4 inches"
+    },
+    "reviews": [
+      {
+        "user": "CandleLover",
+        "rating": 5,
+        "comment": "Smells amazing and looks beautiful."
+      }
+    ]
+  },
+  {
+    "id": "prod065",
+    "name": "Russian Amber Necklace",
+    "category": "Fashion",
+    "origin": "Russia",
+    "price": 99.99,
+    "availability": "In Stock",
+    "description": "A necklace made with genuine Baltic amber.",
+    "materials": ["amber", "silver"],
+    "dimensions": {
+      "height": "18 inches",
+      "width": "1 inch",
+      "depth": "1 inch"
+    },
+    "reviews": [
+      {
+        "user": "JewelryFan",
+        "rating": 5,
+        "comment": "Unique and elegant."
+      }
+    ]
+  },
+  {
+    "id": "prod066",
+    "name": "Spanish Paella Pan",
+    "category": "Home & Kitchen",
+    "origin": "Spain",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A traditional pan for cooking Spanish paella.",
+    "materials": ["carbon steel"],
+    "dimensions": {
+      "height": "2 inches",
+      "width": "14 inches",
+      "depth": "14 inches"
+    },
+    "reviews": [
+      {
+        "user": "CookingPro",
+        "rating": 5,
+        "comment": "Perfect for making authentic paella."
+      }
+    ]
+  },
+  {
+    "id": "prod067",
+    "name": "Moroccan Spice Blend",
+    "category": "Food & Beverage",
+    "origin": "Morocco",
+    "price": 12.99,
+    "availability": "In Stock",
+    "description": "A blend of traditional Moroccan spices for cooking.",
+    "ingredients": ["cumin", "coriander", "paprika", "turmeric"],
+    "reviews": [
+      {
+        "user": "Foodie",
+        "rating": 5,
+        "comment": "Adds amazing flavor to dishes."
+      }
+    ]
+  },
+  {
+    "id": "prod068",
+    "name": "New Zealand Manuka Honey Soap",
+    "category": "Beauty & Personal Care",
+    "origin": "New Zealand",
+    "price": 9.99,
+    "availability": "In Stock",
+    "description": "A natural soap made with Manuka honey.",
+    "ingredients": ["Manuka honey", "olive oil", "lye"],
+    "reviews": [
+      {
+        "user": "EcoFriendly",
+        "rating": 5,
+        "comment": "Gentle and moisturizing."
+      }
+    ]
+  },
+  {
+    "id": "prod069",
+    "name": "Chinese Silk Scarf",
+    "category": "Fashion",
+    "origin": "China",
+    "price": 59.99,
+    "availability": "In Stock",
+    "description": "A luxurious silk scarf with traditional Chinese patterns.",
+    "materials": ["silk"],
+    "dimensions": {
+      "height": "72 inches",
+      "width": "24 inches"
+    },
+    "reviews": [
+      {
+        "user": "FashionLover",
+        "rating": 5,
+        "comment": "Elegant and versatile."
+      }
+    ]
+  },
+  {
+    "id": "prod070",
+    "name": "Argentinian Empanada Mold",
+    "category": "Home & Kitchen",
+    "origin": "Argentina",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "A mold for making traditional Argentine empanadas.",
+    "materials": ["plastic"],
+    "dimensions": {
+      "height": "1 inch",
+      "width": "6 inches",
+      "depth": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "CookingFan",
+        "rating": 5,
+        "comment": "Makes empanada-making so easy."
+      }
+    ]
+  },
+  {
+    "id": "prod071",
+    "name": "Dutch Stroopwafel Maker",
+    "category": "Home & Kitchen",
+    "origin": "Netherlands",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A waffle maker for making traditional Dutch stroopwafels.",
+    "materials": ["non-stick coating", "steel"],
+    "dimensions": {
+      "height": "4 inches",
+      "width": "8 inches",
+      "depth": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "BakingFan",
+        "rating": 5,
+        "comment": "Perfect for making stroopwafels at home."
+      }
+    ]
+  },
+  {
+    "id": "prod072",
+    "name": "South African Rooibos Tea Set",
+    "category": "Food & Beverage",
+    "origin": "South Africa",
+    "price": 24.99,
+    "availability": "In Stock",
+    "description": "A set of Rooibos tea with a teapot and cups.",
+    "ingredients": ["Rooibos tea leaves"],
+    "reviews": [
+      {
+        "user": "TeaLover",
+        "rating": 5,
+        "comment": "Soothing and caffeine-free."
+      }
+    ]
+  },
+  {
+    "id": "prod073",
+    "name": "Irish Wool Scarf",
+    "category": "Fashion",
+    "origin": "Ireland",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A warm and cozy wool scarf handknitted in Ireland.",
+    "materials": ["wool"],
+    "dimensions": {
+      "height": "72 inches",
+      "width": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "WinterReady",
+        "rating": 5,
+        "comment": "Perfect for cold weather."
+      }
+    ]
+  },
+  {
+    "id": "prod074",
+    "name": "Peruvian Alpaca Wool Socks",
+    "category": "Fashion",
+    "origin": "Peru",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "Soft and warm socks made from Peruvian alpaca wool.",
+    "materials": ["alpaca wool"],
+    "dimensions": {
+      "height": "10 inches",
+      "width": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "CozyFeet",
+        "rating": 5,
+        "comment": "Incredibly soft and warm."
+      }
+    ]
+  },
+  {
+    "id": "prod075",
+    "name": "Greek Olive Wood Spoon",
+    "category": "Home & Kitchen",
+    "origin": "Greece",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "A hand-carved olive wood spoon from Greece.",
+    "materials": ["olive wood"],
+    "dimensions": {
+      "height": "10 inches",
+      "width": "2 inches",
+      "depth": "1 inch"
+    },
+    "reviews": [
+      {
+        "user": "CookingPro",
+        "rating": 5,
+        "comment": "Beautiful and functional."
+      }
+    ]
+  },
+
+  {
+    "id": "prod076",
+    "name": "Italian Leather Jacket",
+    "category": "Fashion",
+    "origin": "Italy",
+    "price": 299.99,
+    "availability": "In Stock",
+    "description": "A premium leather jacket crafted in Italy.",
+    "materials": ["leather"],
+    "dimensions": {
+      "height": "28 inches",
+      "width": "22 inches",
+      "depth": "2 inches"
+    },
+    "reviews": [
+      {
+        "user": "FashionFanatic",
+        "rating": 5,
+        "comment": "Timeless and high-quality."
+      }
+    ]
+  },
+  {
+    "id": "prod077",
+    "name": "Japanese Sushi Kit",
+    "category": "Food & Beverage",
+    "origin": "Japan",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A kit for making sushi at home, including a bamboo mat and rice paddle.",
+    "ingredients": ["sushi rice", "nori", "soy sauce"],
+    "reviews": [
+      {
+        "user": "SushiLover",
+        "rating": 5,
+        "comment": "Perfect for sushi-making beginners."
+      }
+    ]
+  },
+  {
+    "id": "prod078",
+    "name": "Swiss Chocolate Fondue Set",
+    "category": "Home & Kitchen",
+    "origin": "Switzerland",
+    "price": 59.99,
+    "availability": "In Stock",
+    "description": "A fondue set for melting Swiss chocolate.",
+    "materials": ["ceramic", "stainless steel"],
+    "dimensions": {
+      "height": "6 inches",
+      "width": "8 inches",
+      "depth": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "Chocoholic",
+        "rating": 5,
+        "comment": "Perfect for parties and gatherings."
+      }
+    ]
+  },
+  {
+    "id": "prod079",
+    "name": "French Lavender Sachet",
+    "category": "Home Decor",
+    "origin": "France",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "A sachet filled with dried lavender for a calming scent.",
+    "ingredients": ["lavender"],
+    "reviews": [
+      {
+        "user": "AromaTherapyFan",
+        "rating": 5,
+        "comment": "Smells amazing and lasts a long time."
+      }
+    ]
+  },
+  {
+    "id": "prod080",
+    "name": "German Advent Calendar",
+    "category": "Seasonal",
+    "origin": "Germany",
+    "price": 24.99,
+    "availability": "In Stock",
+    "description": "A traditional Advent calendar with chocolates for each day.",
+    "ingredients": ["chocolate"],
+    "reviews": [
+      {
+        "user": "HolidayLover",
+        "rating": 5,
+        "comment": "A festive way to count down to Christmas."
+      }
+    ]
+  },
+  {
+    "id": "prod081",
+    "name": "Indian Ayurvedic Oil",
+    "category": "Beauty & Personal Care",
+    "origin": "India",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A blend of Ayurvedic oils for hair and scalp health.",
+    "ingredients": ["coconut oil", "amla oil", "bhringraj oil"],
+    "reviews": [
+      {
+        "user": "HairCareFan",
+        "rating": 5,
+        "comment": "Nourishing and promotes hair growth."
+      }
+    ]
+  },
+  {
+    "id": "prod082",
+    "name": "Turkish Coffee Pot",
+    "category": "Home & Kitchen",
+    "origin": "Turkey",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A traditional pot for brewing Turkish coffee.",
+    "materials": ["copper"],
+    "dimensions": {
+      "height": "6 inches",
+      "width": "4 inches",
+      "depth": "4 inches"
+    },
+    "reviews": [
+      {
+        "user": "CoffeeLover",
+        "rating": 5,
+        "comment": "Perfect for making authentic Turkish coffee."
+      }
+    ]
+  },
+  {
+    "id": "prod083",
+    "name": "Brazilian Carnival Mask",
+    "category": "Seasonal",
+    "origin": "Brazil",
+    "price": 34.99,
+    "availability": "In Stock",
+    "description": "A colorful mask for Carnival celebrations.",
+    "materials": ["feathers", "plastic"],
+    "dimensions": {
+      "height": "10 inches",
+      "width": "8 inches",
+      "depth": "2 inches"
+    },
+    "reviews": [
+      {
+        "user": "PartyGoer",
+        "rating": 5,
+        "comment": "Vibrant and fun for parties."
+      }
+    ]
+  },
+  {
+    "id": "prod084",
+    "name": "Mexican Hot Sauce Set",
+    "category": "Food & Beverage",
+    "origin": "Mexico",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A set of three spicy hot sauces from Mexico.",
+    "ingredients": ["chili peppers", "vinegar", "spices"],
+    "reviews": [
+      {
+        "user": "SpiceLover",
+        "rating": 5,
+        "comment": "Adds a kick to any dish."
+      }
+    ]
+  },
+  {
+    "id": "prod085",
+    "name": "Australian Emu Oil",
+    "category": "Beauty & Personal Care",
+    "origin": "Australia",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A natural oil for skincare and joint health.",
+    "ingredients": ["emu oil"],
+    "reviews": [
+      {
+        "user": "HealthEnthusiast",
+        "rating": 5,
+        "comment": "Great for moisturizing and reducing inflammation."
+      }
+    ]
+  },
+  {
+    "id": "prod086",
+    "name": "Korean Ginseng Tea",
+    "category": "Food & Beverage",
+    "origin": "South Korea",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "A pack of ginseng tea for energy and vitality.",
+    "ingredients": ["ginseng root"],
+    "reviews": [
+      {
+        "user": "TeaLover",
+        "rating": 5,
+        "comment": "Refreshing and energizing."
+      }
+    ]
+  },
+  {
+    "id": "prod087",
+    "name": "Canadian Ice Wine Glasses",
+    "category": "Home & Kitchen",
+    "origin": "Canada",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A set of glasses designed for enjoying ice wine.",
+    "materials": ["crystal"],
+    "dimensions": {
+      "height": "6 inches",
+      "width": "3 inches",
+      "depth": "3 inches"
+    },
+    "reviews": [
+      {
+        "user": "WineLover",
+        "rating": 5,
+        "comment": "Elegant and perfect for ice wine."
+      }
+    ]
+  },
+  {
+    "id": "prod088",
+    "name": "Egyptian Papyrus Notebook",
+    "category": "Stationery",
+    "origin": "Egypt",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A notebook made from traditional Egyptian papyrus.",
+    "materials": ["papyrus"],
+    "dimensions": {
+      "height": "8 inches",
+      "width": "6 inches",
+      "depth": "0.5 inches"
+    },
+    "reviews": [
+      {
+        "user": "Writer",
+        "rating": 5,
+        "comment": "Unique and eco-friendly."
+      }
+    ]
+  },
+  {
+    "id": "prod089",
+    "name": "Thai Coconut Bowl",
+    "category": "Home & Kitchen",
+    "origin": "Thailand",
+    "price": 24.99,
+    "availability": "In Stock",
+    "description": "A bowl made from a coconut shell, perfect for serving food.",
+    "materials": ["coconut shell"],
+    "dimensions": {
+      "height": "4 inches",
+      "width": "6 inches",
+      "depth": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "EcoFriendly",
+        "rating": 5,
+        "comment": "Sustainable and stylish."
+      }
+    ]
+  },
+  {
+    "id": "prod090",
+    "name": "Russian Birch Bark Box",
+    "category": "Home Decor",
+    "origin": "Russia",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "A handcrafted box made from birch bark.",
+    "materials": ["birch bark"],
+    "dimensions": {
+      "height": "4 inches",
+      "width": "6 inches",
+      "depth": "6 inches"
+    },
+    "reviews": [
+      {
+        "user": "ArtLover",
+        "rating": 5,
+        "comment": "Beautiful and unique."
+      }
+    ]
+  },
+  {
+    "id": "prod091",
+    "name": "Spanish Flamenco Fan",
+    "category": "Fashion",
+    "origin": "Spain",
+    "price": 29.99,
+    "availability": "In Stock",
+    "description": "A traditional hand fan used in flamenco dancing.",
+    "materials": ["wood", "fabric"],
+    "dimensions": {
+      "height": "10 inches",
+      "width": "6 inches",
+      "depth": "1 inch"
+    },
+    "reviews": [
+      {
+        "user": "DanceFan",
+        "rating": 5,
+        "comment": "Beautiful and functional."
+      }
+    ]
+  },
+  {
+    "id": "prod092",
+    "name": "Moroccan Argan Oil Shampoo",
+    "category": "Beauty & Personal Care",
+    "origin": "Morocco",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "A shampoo infused with Moroccan argan oil.",
+    "ingredients": ["argan oil", "coconut oil", "aloe vera"],
+    "reviews": [
+      {
+        "user": "HairCareFan",
+        "rating": 5,
+        "comment": "Leaves hair soft and shiny."
+      }
+    ]
+  },
+  {
+    "id": "prod093",
+    "name": "New Zealand Wool Slippers",
+    "category": "Fashion",
+    "origin": "New Zealand",
+    "price": 49.99,
+    "availability": "In Stock",
+    "description": "Warm and cozy slippers made from New Zealand wool.",
+    "materials": ["wool"],
+    "dimensions": {
+      "height": "4 inches",
+      "width": "10 inches",
+      "depth": "4 inches"
+    },
+    "reviews": [
+      {
+        "user": "CozyFeet",
+        "rating": 5,
+        "comment": "Perfect for cold mornings."
+      }
+    ]
+  },
+  {
+    "id": "prod094",
+    "name": "Chinese Calligraphy Set",
+    "category": "Stationery",
+    "origin": "China",
+    "price": 39.99,
+    "availability": "In Stock",
+    "description": "A set for practicing traditional Chinese calligraphy.",
+    "materials": ["bamboo", "ink", "paper"],
+    "dimensions": {
+      "height": "8 inches",
+      "width": "6 inches",
+      "depth": "2 inches"
+    },
+    "reviews": [
+      {
+        "user": "ArtStudent",
+        "rating": 5,
+        "comment": "Great for beginners and experts alike."
+      }
+    ]
+  },
+  {
+    "id": "prod095",
+    "name": "Argentinian Mate Gourd",
+    "category": "Home & Kitchen",
+    "origin": "Argentina",
+    "price": 24.99,
+    "availability": "In Stock",
+    "description": "A traditional gourd for drinking mate tea.",
+    "materials": ["gourd", "metal"],
+    "dimensions": {
+      "height": "6 inches",
+      "width": "4 inches",
+      "depth": "4 inches"
+    },
+    "reviews": [
+      {
+        "user": "TeaLover",
+        "rating": 5,
+        "comment": "Authentic and durable."
+      }
+    ]
+  },
+  {
+    "id": "prod096",
+    "name": "Dutch Stroopwafel Mix",
+    "category": "Food & Beverage",
+    "origin": "Netherlands",
+    "price": 14.99,
+    "availability": "In Stock",
+    "description": "A mix for making traditional Dutch stroopwafels at home.",
+    "ingredients": ["flour", "sugar", "butter", "caramel"],
+    "reviews": [
+      {
+        "user": "BakingFan",
+        "rating": 5,
+        "comment": "Easy to use and delicious."
+      }
+    ]
+  },
+  {
+    "id": "prod097",
+    "name": "South African Biltong Spice",
+    "category": "Food & Beverage",
+    "origin": "South Africa",
+    "price": 9.99,
+    "availability": "In Stock",
+    "description": "A spice blend for making traditional South African biltong.",
+    "ingredients": ["coriander", "pepper", "salt", "vinegar"],
+    "reviews": [
+      {
+        "user": "SnackLover",
+        "rating": 5,
+        "comment": "Perfect for making homemade biltong."
+      }
+    ]
+  },
+  {
+    "id": "prod098",
+    "name": "Irish Whiskey Stones",
+    "category": "Home & Kitchen",
+    "origin": "Ireland",
+    "price": 19.99,
+    "availability": "In Stock",
+    "description": "Reusable whiskey stones for chilling drinks without dilution.",
+    "materials": ["soapstone"],
+    "dimensions": {
+      "height": "1 inch",
+      "width": "1 inch",
+      "depth": "1 inch"
+    },
+    "reviews": [
+      {
+        "user": "WhiskeyFan",
+        "rating": 5,
+        "comment": "Keeps my whiskey cold without watering it down."
+      }
+    ]
+  },
+  {
+    "id": "prod099",
+    "name": "Peruvian Alpaca Wool Scarf",
+    "category": "Fashion",
+    "origin": "Peru",
+    "price": 59.99,
+    "availability": "In Stock",
+    "description": "A soft and warm scarf made from Peruvian alpaca wool.",
+    "materials": ["alpaca wool"],
+    "dimensions": {
+      "height": "72 inches",
+      "width": "8 inches"
+    },
+    "reviews": [
+      {
+        "user": "WinterReady",
+        "rating": 5,
+        "comment": "Luxuriously soft and warm."
+      }
+    ]
+  },
+  {
+    "id": "prod100",
+    "name": "Greek Olive Oil Soap Set",
+    "category": "Beauty & Personal Care",
+    "origin": "Greece",
+    "price": 24.99,
+    "availability": "In Stock",
+    "description": "A set of natural soaps made with Greek olive oil.",
+    "ingredients": ["olive oil", "lye", "water"],
+    "reviews": [
+      {
+        "user": "EcoFriendly",
+        "rating": 5,
+        "comment": "Gentle and moisturizing."
+      }
+    ]
+  }
+]

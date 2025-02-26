@@ -1,0 +1,50 @@
+:root{
+    background-color: #F5EFE7;
+    color: #112A46;
+    padding: 8px;
+    height: 99vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.index-container{
+    height: 99%;
+    width: 99%;
+    border: 1px solid #112A46;
+    box-sizing: border-box;
+
+
+    header{
+        border: 1px solid #112A46;
+        width: 97%;
+        text-align: center;
+        
+        .title-header{
+            border: 1px solid white;
+            align-items: center;
+        }
+    }
+    main{
+        text-align: center;
+    }
+
+    footer{    
+        // border: 1px solid #112A46;
+        width: 97%;
+        position: absolute;
+        bottom: 0;
+
+        display: flex;
+        justify-content: space-around;
+
+       p{
+        margin-left: 45px;
+        margin-right: 45px;
+
+        a{
+            color: #112A46;
+            text-decoration: none;
+        }
+       }
+    }
+}

@@ -1,0 +1,1489 @@
+[
+  {
+    "id": "1a2b3c",
+    "name": "John Doe",
+    "age": 28,
+    "address": "123 Main St, Springfield, IL",
+    "email": "johndoe@example.com",
+    "quote": "The only limit is your imagination.",
+    "details": {
+      "hobbies": ["reading", "hiking", "coding"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science"
+      }
+    }
+  },
+  {
+    "id": "4d5e6f",
+    "name": "Jane Smith",
+    "age": 34,
+    "address": "456 Elm St, Metropolis, NY",
+    "email": "janesmith@example.com",
+    "quote": "Dream big and dare to fail.",
+    "details": {
+      "hobbies": ["painting", "traveling"],
+      "education": {
+        "degree": "Master of Arts",
+        "major": "Fine Arts"
+      }
+    }
+  },
+  {
+    "id": "7g8h9i",
+    "name": "Alice Johnson",
+    "age": 22,
+    "address": "789 Oak St, Smalltown, TX",
+    "email": "alicej@example.com",
+    "quote": "Be the change you wish to see in the world.",
+    "details": {
+      "hobbies": ["dancing", "cooking"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Culinary Arts"
+      }
+    }
+  },
+  {
+    "id": "0j1k2l",
+    "name": "Bob Brown",
+    "age": 45,
+    "address": "321 Pine St, Largetown, CA",
+    "email": "bobb@example.com",
+    "quote": "Stay hungry, stay foolish.",
+    "details": {
+      "hobbies": ["fishing", "gardening"],
+      "education": {
+        "degree": "PhD",
+        "major": "Biology"
+      }
+    }
+  },
+  {
+    "id": "3m4n5o",
+    "name": "Charlie Davis",
+    "age": 30,
+    "address": "654 Cedar St, Uptown, WA",
+    "email": "charlied@example.com",
+    "quote": "Life is a journey, not a destination.",
+    "details": {
+      "hobbies": ["photography", "cycling"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Photography"
+      }
+    }
+  },
+  {
+    "id": "6p7q8r",
+    "name": "Diana Evans",
+    "age": 29,
+    "address": "987 Birch St, Downtown, FL",
+    "email": "dianae@example.com",
+    "quote": "Keep your face always toward the sunshine.",
+    "details": {
+      "hobbies": ["yoga", "meditation"],
+      "education": {
+        "degree": "Master of Science",
+        "major": "Psychology"
+      }
+    }
+  },
+  {
+    "id": "9s0t1u",
+    "name": "Ethan Harris",
+    "age": 40,
+    "address": "135 Walnut St, Midtown, GA",
+    "email": "ethanh@example.com",
+    "quote": "Do what you can, with what you have.",
+    "details": {
+      "hobbies": ["gaming", "movies"],
+      "education": {
+        "degree": "Bachelor of Engineering",
+        "major": "Mechanical Engineering"
+      }
+    }
+  },
+  {
+    "id": "2v3w4x",
+    "name": "Fiona Clark",
+    "age": 26,
+    "address": "246 Cherry St, Eastside, OH",
+    "email": "fionac@example.com",
+    "quote": "Simplicity is the ultimate sophistication.",
+    "details": {
+      "hobbies": ["writing", "blogging"],
+      "education": {
+        "degree": "Bachelor of Journalism",
+        "major": "Mass Communication"
+      }
+    }
+  },
+  {
+    "id": "5y6z7a",
+    "name": "George Lewis",
+    "age": 33,
+    "address": "369 Maple St, Westside, MI",
+    "email": "georgel@example.com",
+    "quote": "Act as if what you do makes a difference.",
+    "details": {
+      "hobbies": ["chess", "puzzles"],
+      "education": {
+        "degree": "Master of Business Administration",
+        "major": "Finance"
+      }
+    }
+  },
+  {
+    "id": "8b9c0d",
+    "name": "Hannah Walker",
+    "age": 31,
+    "address": "482 Spruce St, Northside, NC",
+    "email": "hannahw@example.com",
+    "quote": "What you get by achieving your goals is not as important.",
+    "details": {
+      "hobbies": ["singing", "music"],
+      "education": {
+        "degree": "Bachelor of Music",
+        "major": "Vocal Performance"
+      }
+    }
+  },
+  {
+    "id": "1e2f3g",
+    "name": "Ian Hall",
+    "age": 27,
+    "address": "573 Fir St, Southside, SC",
+    "email": "ianh@example.com",
+    "quote": "You must be the change you wish to see in the world.",
+    "details": {
+      "hobbies": ["running", "swimming"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Physical Education"
+      }
+    }
+  },
+  {
+    "id": "4h5i6j",
+    "name": "Julia Young",
+    "age": 35,
+    "address": "684 Palm St, Lakeside, WI",
+    "email": "juliay@example.com",
+    "quote": "The best way to predict the future is to invent it.",
+    "details": {
+      "hobbies": ["knitting", "sewing"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Fashion Design"
+      }
+    }
+  },
+  {
+    "id": "7k8l9m",
+    "name": "Kevin Allen",
+    "age": 38,
+    "address": "795 Willow St, Riverside, CO",
+    "email": "kevina@example.com",
+    "quote": "It always seems impossible until it's done.",
+    "details": {
+      "hobbies": ["camping", "fishing"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Environmental Science"
+      }
+    }
+  },
+  {
+    "id": "0n1o2p",
+    "name": "Laura King",
+    "age": 24,
+    "address": "806 Aspen St, Mountainview, UT",
+    "email": "laurak@example.com",
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "details": {
+      "hobbies": ["skiing", "snowboarding"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Sports Management"
+      }
+    }
+  },
+  {
+    "id": "3q4r5s",
+    "name": "Michael Wright",
+    "age": 41,
+    "address": "917 Redwood St, Hilltop, AZ",
+    "email": "michaelw@example.com",
+    "quote": "The only way to do great work is to love what you do.",
+    "details": {
+      "hobbies": ["golf", "tennis"],
+      "education": {
+        "degree": "Master of Science",
+        "major": "Sports Science"
+      }
+    }
+  },
+  {
+    "id": "6t7u8v",
+    "name": "Nina Scott",
+    "age": 29,
+    "address": "128 Sequoia St, Valleyview, NM",
+    "email": "ninas@example.com",
+    "quote": "Strive not to be a success, but rather to be of value.",
+    "details": {
+      "hobbies": ["drawing", "sculpting"],
+      "education": {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Sculpture"
+      }
+    }
+  },
+  {
+    "id": "9w0x1y",
+    "name": "Oscar Green",
+    "age": 36,
+    "address": "239 Sycamore St, Oceanview, OR",
+    "email": "oscarg@example.com",
+    "quote": "You miss 100% of the shots you don’t take.",
+    "details": {
+      "hobbies": ["surfing", "kayaking"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Marine Biology"
+      }
+    }
+  },
+  {
+    "id": "2z3a4b",
+    "name": "Paula Adams",
+    "age": 32,
+    "address": "340 Magnolia St, Beachside, CA",
+    "email": "paulaa@example.com",
+    "quote": "The best revenge is massive success.",
+    "details": {
+      "hobbies": ["baking", "gardening"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Culinary Arts"
+      }
+    }
+  },
+  {
+    "id": "5c6d7e",
+    "name": "Quincy Baker",
+    "age": 37,
+    "address": "451 Dogwood St, Cliffside, WA",
+    "email": "quincyb@example.com",
+    "quote": "Believe you can and you're halfway there.",
+    "details": {
+      "hobbies": ["rock climbing", "hiking"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Geology"
+      }
+    }
+  },
+  {
+    "id": "8f9g0h",
+    "name": "Rachel Carter",
+    "age": 23,
+    "address": "562 Hickory St, Forestview, MT",
+    "email": "rachelc@example.com",
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "details": {
+      "hobbies": ["bird watching", "nature photography"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Wildlife Biology"
+      }
+    }
+  },
+  {
+    "id": "1i2j3k",
+    "name": "Steve Diaz",
+    "age": 39,
+    "address": "673 Poplar St, Meadowview, ID",
+    "email": "steved@example.com",
+    "quote": "The secret of getting ahead is getting started.",
+    "details": {
+      "hobbies": ["farming", "animal husbandry"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Agricultural Science"
+      }
+    }
+  },
+  {
+    "id": "4l5m6n",
+    "name": "Tina Evans",
+    "age": 25,
+    "address": "784 Cedar St, Plainsview, ND",
+    "email": "tinae@example.com",
+    "quote": "It’s not whether you get knocked down, it’s whether you get up.",
+    "details": {
+      "hobbies": ["horse riding", "archery"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "History"
+      }
+    }
+  },
+  {
+    "id": "7o8p9q",
+    "name": "Uma Flores",
+    "age": 28,
+    "address": "895 Pine St, Desertview, NV",
+    "email": "umaf@example.com",
+    "quote": "The only place where success comes before work is in the dictionary.",
+    "details": {
+      "hobbies": ["stargazing", "astronomy"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Astronomy"
+      }
+    }
+  },
+  {
+    "id": "0r1s2t",
+    "name": "Victor Gray",
+    "age": 42,
+    "address": "906 Oak St, Canyonview, WY",
+    "email": "victorg@example.com",
+    "quote": "Success is the sum of small efforts, repeated day in and day out.",
+    "details": {
+      "hobbies": ["mountain biking", "trail running"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Exercise Science"
+      }
+    }
+  },
+  {
+    "id": "3u4v5w",
+    "name": "Wendy Hill",
+    "age": 31,
+    "address": "017 Elm St, Summitview, SD",
+    "email": "wendyh@example.com",
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "details": {
+      "hobbies": ["gardening", "landscaping"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Horticulture"
+      }
+    }
+  },
+
+  {
+    "id": "1x2y3z",
+    "name": "Alex Turner",
+    "age": 29,
+    "address": "123 Pine St, Lakeside, CA",
+    "email": "alext@example.com",
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "details": {
+      "hobbies": ["photography", "traveling"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Photography"
+      }
+    }
+  },
+  {
+    "id": "4a5b6c",
+    "name": "Bella Reed",
+    "age": 26,
+    "address": "456 Oak St, Hilltop, NY",
+    "email": "bellar@example.com",
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "details": {
+      "hobbies": ["painting", "yoga"],
+      "education": {
+        "degree": "Master of Fine Arts",
+        "major": "Visual Arts"
+      }
+    }
+  },
+  {
+    "id": "7d8e9f",
+    "name": "Caleb Morris",
+    "age": 33,
+    "address": "789 Maple St, Riverside, TX",
+    "email": "calebm@example.com",
+    "quote": "Do what you can, with what you have, where you are.",
+    "details": {
+      "hobbies": ["fishing", "camping"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Environmental Science"
+      }
+    }
+  },
+  {
+    "id": "0g1h2i",
+    "name": "Daisy Clark",
+    "age": 27,
+    "address": "321 Birch St, Uptown, FL",
+    "email": "daisyc@example.com",
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "details": {
+      "hobbies": ["reading", "writing"],
+      "education": {
+        "degree": "Bachelor of Journalism",
+        "major": "Creative Writing"
+      }
+    }
+  },
+  {
+    "id": "3j4k5l",
+    "name": "Eli Watson",
+    "age": 35,
+    "address": "654 Cedar St, Downtown, WA",
+    "email": "eliw@example.com",
+    "quote": "Your time is limited, don't waste it living someone else's life.",
+    "details": {
+      "hobbies": ["gaming", "coding"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science"
+      }
+    }
+  },
+  {
+    "id": "6m7n8o",
+    "name": "Fiona Harris",
+    "age": 30,
+    "address": "987 Elm St, Midtown, GA",
+    "email": "fionah@example.com",
+    "quote": "The best way to predict the future is to create it.",
+    "details": {
+      "hobbies": ["dancing", "music"],
+      "education": {
+        "degree": "Bachelor of Music",
+        "major": "Dance"
+      }
+    }
+  },
+  {
+    "id": "9p0q1r",
+    "name": "Gavin Lewis",
+    "age": 40,
+    "address": "135 Walnut St, Eastside, OH",
+    "email": "gavinl@example.com",
+    "quote": "Act as if what you do makes a difference. It does.",
+    "details": {
+      "hobbies": ["chess", "puzzles"],
+      "education": {
+        "degree": "Master of Business Administration",
+        "major": "Strategy"
+      }
+    }
+  },
+  {
+    "id": "2s3t4u",
+    "name": "Hazel Walker",
+    "age": 24,
+    "address": "246 Cherry St, Westside, MI",
+    "email": "hazelw@example.com",
+    "quote": "What you get by achieving your goals is not as important as what you become.",
+    "details": {
+      "hobbies": ["singing", "playing guitar"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Music"
+      }
+    }
+  },
+  {
+    "id": "5v6w7x",
+    "name": "Ian King",
+    "age": 32,
+    "address": "369 Spruce St, Northside, NC",
+    "email": "iank@example.com",
+    "quote": "You must be the change you wish to see in the world.",
+    "details": {
+      "hobbies": ["running", "swimming"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Physical Education"
+      }
+    }
+  },
+  {
+    "id": "8y9z0a",
+    "name": "Jasmine Young",
+    "age": 28,
+    "address": "482 Fir St, Southside, SC",
+    "email": "jasminey@example.com",
+    "quote": "The best way to predict the future is to invent it.",
+    "details": {
+      "hobbies": ["knitting", "sewing"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Fashion Design"
+      }
+    }
+  },
+  {
+    "id": "1b2c3d",
+    "name": "Kai Allen",
+    "age": 37,
+    "address": "573 Palm St, Lakeside, WI",
+    "email": "kaia@example.com",
+    "quote": "It always seems impossible until it's done.",
+    "details": {
+      "hobbies": ["camping", "fishing"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Environmental Science"
+      }
+    }
+  },
+  {
+    "id": "4e5f6g",
+    "name": "Luna Wright",
+    "age": 25,
+    "address": "684 Willow St, Riverside, CO",
+    "email": "lunaw@example.com",
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "details": {
+      "hobbies": ["skiing", "snowboarding"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Sports Management"
+      }
+    }
+  },
+  {
+    "id": "7h8i9j",
+    "name": "Mason Scott",
+    "age": 39,
+    "address": "795 Aspen St, Mountainview, UT",
+    "email": "masons@example.com",
+    "quote": "The only way to do great work is to love what you do.",
+    "details": {
+      "hobbies": ["golf", "tennis"],
+      "education": {
+        "degree": "Master of Science",
+        "major": "Sports Science"
+      }
+    }
+  },
+  {
+    "id": "0k1l2m",
+    "name": "Nora Green",
+    "age": 31,
+    "address": "806 Redwood St, Hilltop, AZ",
+    "email": "norag@example.com",
+    "quote": "Strive not to be a success, but rather to be of value.",
+    "details": {
+      "hobbies": ["drawing", "sculpting"],
+      "education": {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Sculpture"
+      }
+    }
+  },
+  {
+    "id": "3n4o5p",
+    "name": "Owen Adams",
+    "age": 36,
+    "address": "917 Sequoia St, Valleyview, NM",
+    "email": "owena@example.com",
+    "quote": "You miss 100% of the shots you don’t take.",
+    "details": {
+      "hobbies": ["surfing", "kayaking"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Marine Biology"
+      }
+    }
+  },
+  {
+    "id": "6q7r8s",
+    "name": "Penelope Baker",
+    "age": 29,
+    "address": "128 Sycamore St, Oceanview, OR",
+    "email": "penelopeb@example.com",
+    "quote": "The best revenge is massive success.",
+    "details": {
+      "hobbies": ["baking", "gardening"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Culinary Arts"
+      }
+    }
+  },
+  {
+    "id": "9t0u1v",
+    "name": "Quinn Carter",
+    "age": 34,
+    "address": "239 Magnolia St, Beachside, CA",
+    "email": "quinnc@example.com",
+    "quote": "Believe you can and you're halfway there.",
+    "details": {
+      "hobbies": ["rock climbing", "hiking"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Geology"
+      }
+    }
+  },
+  {
+    "id": "2w3x4y",
+    "name": "Riley Diaz",
+    "age": 27,
+    "address": "340 Dogwood St, Cliffside, WA",
+    "email": "rileyd@example.com",
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "details": {
+      "hobbies": ["bird watching", "nature photography"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Wildlife Biology"
+      }
+    }
+  },
+  {
+    "id": "5z6a7b",
+    "name": "Sofia Evans",
+    "age": 38,
+    "address": "451 Hickory St, Forestview, MT",
+    "email": "sofiae@example.com",
+    "quote": "The secret of getting ahead is getting started.",
+    "details": {
+      "hobbies": ["farming", "animal husbandry"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Agricultural Science"
+      }
+    }
+  },
+  {
+    "id": "8c9d0e",
+    "name": "Theo Flores",
+    "age": 26,
+    "address": "562 Poplar St, Plainsview, ND",
+    "email": "theof@example.com",
+    "quote": "It’s not whether you get knocked down, it’s whether you get up.",
+    "details": {
+      "hobbies": ["horse riding", "archery"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "History"
+      }
+    }
+  },
+  {
+    "id": "1f2g3h",
+    "name": "Uma Gray",
+    "age": 30,
+    "address": "673 Cedar St, Desertview, NV",
+    "email": "umag@example.com",
+    "quote": "The only place where success comes before work is in the dictionary.",
+    "details": {
+      "hobbies": ["stargazing", "astronomy"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Astronomy"
+      }
+    }
+  },
+  {
+    "id": "4i5j6k",
+    "name": "Victor Hill",
+    "age": 41,
+    "address": "784 Pine St, Canyonview, WY",
+    "email": "victorh@example.com",
+    "quote": "Success is the sum of small efforts, repeated day in and day out.",
+    "details": {
+      "hobbies": ["mountain biking", "trail running"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Exercise Science"
+      }
+    }
+  },
+  {
+    "id": "7l8m9n",
+    "name": "Willa Reed",
+    "age": 33,
+    "address": "895 Oak St, Summitview, SD",
+    "email": "willar@example.com",
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "details": {
+      "hobbies": ["gardening", "landscaping"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Horticulture"
+      }
+    }
+  },
+  {
+    "id": "0o1p2q",
+    "name": "Xander Morris",
+    "age": 28,
+    "address": "906 Elm St, Lakeside, CA",
+    "email": "xanderm@example.com",
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "details": {
+      "hobbies": ["photography", "traveling"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Photography"
+      }
+    }
+  },
+  {
+    "id": "3r4s5t",
+    "name": "Yara Turner",
+    "age": 29,
+    "address": "017 Maple St, Hilltop, NY",
+    "email": "yarat@example.com",
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "details": {
+      "hobbies": ["painting", "yoga"],
+      "education": {
+        "degree": "Master of Fine Arts",
+        "major": "Visual Arts"
+      }
+    }
+  },
+  {
+    "id": "1u2v3w",
+    "name": "Zara Phillips",
+    "age": 27,
+    "address": "123 Birch St, Riverside, TX",
+    "email": "zarap@example.com",
+    "quote": "The only limit is the one you set yourself.",
+    "details": {
+      "hobbies": ["reading", "writing"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "English Literature"
+      }
+    }
+  },
+  {
+    "id": "4x5y6z",
+    "name": "Aaron Brooks",
+    "age": 34,
+    "address": "456 Cedar St, Uptown, FL",
+    "email": "aaronb@example.com",
+    "quote": "Dream big and dare to fail.",
+    "details": {
+      "hobbies": ["gaming", "coding"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Computer Engineering"
+      }
+    }
+  },
+  {
+    "id": "7a8b9c",
+    "name": "Brianna Reed",
+    "age": 31,
+    "address": "789 Elm St, Downtown, WA",
+    "email": "briannar@example.com",
+    "quote": "Be the change you wish to see in the world.",
+    "details": {
+      "hobbies": ["dancing", "music"],
+      "education": {
+        "degree": "Bachelor of Music",
+        "major": "Dance"
+      }
+    }
+  },
+  {
+    "id": "0d1e2f",
+    "name": "Cameron Hill",
+    "age": 29,
+    "address": "321 Oak St, Midtown, GA",
+    "email": "cameronh@example.com",
+    "quote": "Stay hungry, stay foolish.",
+    "details": {
+      "hobbies": ["chess", "puzzles"],
+      "education": {
+        "degree": "Master of Business Administration",
+        "major": "Strategy"
+      }
+    }
+  },
+  {
+    "id": "3g4h5i",
+    "name": "Dakota Scott",
+    "age": 26,
+    "address": "654 Pine St, Eastside, OH",
+    "email": "dakotas@example.com",
+    "quote": "What you get by achieving your goals is not as important as what you become.",
+    "details": {
+      "hobbies": ["singing", "playing guitar"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Music"
+      }
+    }
+  },
+  {
+    "id": "6j7k8l",
+    "name": "Eliot Green",
+    "age": 32,
+    "address": "987 Maple St, Westside, MI",
+    "email": "eliotg@example.com",
+    "quote": "You must be the change you wish to see in the world.",
+    "details": {
+      "hobbies": ["running", "swimming"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Physical Education"
+      }
+    }
+  },
+  {
+    "id": "9m0n1o",
+    "name": "Fiona Adams",
+    "age": 28,
+    "address": "135 Walnut St, Northside, NC",
+    "email": "fionaa@example.com",
+    "quote": "The best way to predict the future is to invent it.",
+    "details": {
+      "hobbies": ["knitting", "sewing"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Fashion Design"
+      }
+    }
+  },
+  {
+    "id": "2p3q4r",
+    "name": "Grayson King",
+    "age": 37,
+    "address": "246 Cherry St, Southside, SC",
+    "email": "graysonk@example.com",
+    "quote": "It always seems impossible until it's done.",
+    "details": {
+      "hobbies": ["camping", "fishing"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Environmental Science"
+      }
+    }
+  },
+  {
+    "id": "5s6t7u",
+    "name": "Hannah Wright",
+    "age": 25,
+    "address": "369 Spruce St, Lakeside, WI",
+    "email": "hannahw@example.com",
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "details": {
+      "hobbies": ["skiing", "snowboarding"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Sports Management"
+      }
+    }
+  },
+  {
+    "id": "8v9w0x",
+    "name": "Isaac Turner",
+    "age": 39,
+    "address": "482 Fir St, Riverside, CO",
+    "email": "isaact@example.com",
+    "quote": "The only way to do great work is to love what you do.",
+    "details": {
+      "hobbies": ["golf", "tennis"],
+      "education": {
+        "degree": "Master of Science",
+        "major": "Sports Science"
+      }
+    }
+  },
+  {
+    "id": "1y2z3a",
+    "name": "Jade Harris",
+    "age": 30,
+    "address": "573 Palm St, Mountainview, UT",
+    "email": "jadeh@example.com",
+    "quote": "Strive not to be a success, but rather to be of value.",
+    "details": {
+      "hobbies": ["drawing", "sculpting"],
+      "education": {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Sculpture"
+      }
+    }
+  },
+  {
+    "id": "4b5c6d",
+    "name": "Kai Lewis",
+    "age": 36,
+    "address": "684 Willow St, Hilltop, AZ",
+    "email": "kail@example.com",
+    "quote": "You miss 100% of the shots you don’t take.",
+    "details": {
+      "hobbies": ["surfing", "kayaking"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Marine Biology"
+      }
+    }
+  },
+  {
+    "id": "7e8f9g",
+    "name": "Lila Baker",
+    "age": 29,
+    "address": "795 Aspen St, Valleyview, NM",
+    "email": "lilab@example.com",
+    "quote": "The best revenge is massive success.",
+    "details": {
+      "hobbies": ["baking", "gardening"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Culinary Arts"
+      }
+    }
+  },
+  {
+    "id": "0h1i2j",
+    "name": "Mason Carter",
+    "age": 34,
+    "address": "806 Redwood St, Oceanview, OR",
+    "email": "masonc@example.com",
+    "quote": "Believe you can and you're halfway there.",
+    "details": {
+      "hobbies": ["rock climbing", "hiking"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Geology"
+      }
+    }
+  },
+  {
+    "id": "3k4l5m",
+    "name": "Nora Diaz",
+    "age": 27,
+    "address": "917 Sequoia St, Beachside, CA",
+    "email": "norad@example.com",
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "details": {
+      "hobbies": ["bird watching", "nature photography"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Wildlife Biology"
+      }
+    }
+  },
+  {
+    "id": "6n7o8p",
+    "name": "Owen Evans",
+    "age": 38,
+    "address": "128 Sycamore St, Cliffside, WA",
+    "email": "owene@example.com",
+    "quote": "The secret of getting ahead is getting started.",
+    "details": {
+      "hobbies": ["farming", "animal husbandry"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Agricultural Science"
+      }
+    }
+  },
+  {
+    "id": "9q0r1s",
+    "name": "Penelope Flores",
+    "age": 26,
+    "address": "239 Magnolia St, Forestview, MT",
+    "email": "penelopef@example.com",
+    "quote": "It’s not whether you get knocked down, it’s whether you get up.",
+    "details": {
+      "hobbies": ["horse riding", "archery"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "History"
+      }
+    }
+  },
+  {
+    "id": "2t3u4v",
+    "name": "Quinn Gray",
+    "age": 30,
+    "address": "340 Dogwood St, Plainsview, ND",
+    "email": "quinng@example.com",
+    "quote": "The only place where success comes before work is in the dictionary.",
+    "details": {
+      "hobbies": ["stargazing", "astronomy"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Astronomy"
+      }
+    }
+  },
+  {
+    "id": "5w6x7y",
+    "name": "Riley Hill",
+    "age": 41,
+    "address": "451 Hickory St, Desertview, NV",
+    "email": "rileyh@example.com",
+    "quote": "Success is the sum of small efforts, repeated day in and day out.",
+    "details": {
+      "hobbies": ["mountain biking", "trail running"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Exercise Science"
+      }
+    }
+  },
+  {
+    "id": "8z9a0b",
+    "name": "Sofia Reed",
+    "age": 33,
+    "address": "562 Poplar St, Canyonview, WY",
+    "email": "sofiar@example.com",
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "details": {
+      "hobbies": ["gardening", "landscaping"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Horticulture"
+      }
+    }
+  },
+  {
+    "id": "1c2d3e",
+    "name": "Theo Morris",
+    "age": 28,
+    "address": "673 Cedar St, Summitview, SD",
+    "email": "theom@example.com",
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "details": {
+      "hobbies": ["photography", "traveling"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Photography"
+      }
+    }
+  },
+  {
+    "id": "4f5g6h",
+    "name": "Uma Turner",
+    "age": 29,
+    "address": "784 Pine St, Lakeside, CA",
+    "email": "umat@example.com",
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "details": {
+      "hobbies": ["painting", "yoga"],
+      "education": {
+        "degree": "Master of Fine Arts",
+        "major": "Visual Arts"
+      }
+    }
+  },
+  {
+    "id": "7i8j9k",
+    "name": "Victor Brooks",
+    "age": 31,
+    "address": "895 Oak St, Hilltop, NY",
+    "email": "victorb@example.com",
+    "quote": "Be the change you wish to see in the world.",
+    "details": {
+      "hobbies": ["gaming", "coding"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Computer Engineering"
+      }
+    }
+  },
+  {
+    "id": "0l1m2n",
+    "name": "Willa Reed",
+    "age": 27,
+    "address": "906 Elm St, Riverside, TX",
+    "email": "willar@example.com",
+    "quote": "Stay hungry, stay foolish.",
+    "details": {
+      "hobbies": ["dancing", "music"],
+      "education": {
+        "degree": "Bachelor of Music",
+        "major": "Dance"
+      }
+    }
+  },
+  {
+    "id": "3o4p5q",
+    "name": "Xander Hill",
+    "age": 34,
+    "address": "017 Maple St, Uptown, FL",
+    "email": "xanderh@example.com",
+    "quote": "What you get by achieving your goals is not as important as what you become.",
+    "details": {
+      "hobbies": ["chess", "puzzles"],
+      "education": {
+        "degree": "Master of Business Administration",
+        "major": "Strategy"
+      }
+    }
+  },
+
+  {
+    "id": "1a2b3c4d",
+    "name": "Zara Mitchell",
+    "age": 29,
+    "address": "123 Pine St, Lakeside, CA",
+    "email": "zaram@example.com",
+    "quote": "The best way to predict the future is to create it.",
+    "details": {
+      "hobbies": ["reading", "traveling"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Literature"
+      }
+    }
+  },
+  {
+    "id": "5e6f7g8h",
+    "name": "Aaron Carter",
+    "age": 35,
+    "address": "456 Oak St, Hilltop, NY",
+    "email": "aaronc@example.com",
+    "quote": "Dream big and work hard.",
+    "details": {
+      "hobbies": ["coding", "gaming"],
+      "education": {
+        "degree": "Master of Science",
+        "major": "Computer Science"
+      }
+    }
+  },
+  {
+    "id": "9i0j1k2l",
+    "name": "Bella Scott",
+    "age": 26,
+    "address": "789 Maple St, Riverside, TX",
+    "email": "bellas@example.com",
+    "quote": "Be the change you wish to see in the world.",
+    "details": {
+      "hobbies": ["dancing", "music"],
+      "education": {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Performing Arts"
+      }
+    }
+  },
+  {
+    "id": "3m4n5o6p",
+    "name": "Caleb Adams",
+    "age": 32,
+    "address": "321 Birch St, Uptown, FL",
+    "email": "caleba@example.com",
+    "quote": "Stay curious, stay humble.",
+    "details": {
+      "hobbies": ["chess", "puzzles"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Mathematics"
+      }
+    }
+  },
+  {
+    "id": "7q8r9s0t",
+    "name": "Daisy Turner",
+    "age": 28,
+    "address": "654 Cedar St, Downtown, WA",
+    "email": "daisyt@example.com",
+    "quote": "The only way to do great work is to love what you do.",
+    "details": {
+      "hobbies": ["painting", "drawing"],
+      "education": {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Visual Arts"
+      }
+    }
+  },
+  {
+    "id": "1u2v3w4x",
+    "name": "Eliot Reed",
+    "age": 30,
+    "address": "987 Elm St, Midtown, GA",
+    "email": "eliotr@example.com",
+    "quote": "Strive for progress, not perfection.",
+    "details": {
+      "hobbies": ["running", "cycling"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Exercise Science"
+      }
+    }
+  },
+  {
+    "id": "5y6z7a8b",
+    "name": "Fiona King",
+    "age": 27,
+    "address": "135 Walnut St, Eastside, OH",
+    "email": "fionak@example.com",
+    "quote": "The best time to start is now.",
+    "details": {
+      "hobbies": ["yoga", "meditation"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Psychology"
+      }
+    }
+  },
+  {
+    "id": "9c0d1e2f",
+    "name": "Grayson Lewis",
+    "age": 33,
+    "address": "246 Cherry St, Westside, MI",
+    "email": "graysonl@example.com",
+    "quote": "Success is a journey, not a destination.",
+    "details": {
+      "hobbies": ["fishing", "camping"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Environmental Science"
+      }
+    }
+  },
+  {
+    "id": "3g4h5i6j",
+    "name": "Hazel Green",
+    "age": 29,
+    "address": "369 Spruce St, Northside, NC",
+    "email": "hazelg@example.com",
+    "quote": "The harder you work, the luckier you get.",
+    "details": {
+      "hobbies": ["gardening", "cooking"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Culinary Arts"
+      }
+    }
+  },
+  {
+    "id": "7k8l9m0n",
+    "name": "Ian Wright",
+    "age": 36,
+    "address": "482 Fir St, Southside, SC",
+    "email": "ianw@example.com",
+    "quote": "Believe you can and you're halfway there.",
+    "details": {
+      "hobbies": ["gaming", "coding"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Software Engineering"
+      }
+    }
+  },
+  {
+    "id": "1o2p3q4r",
+    "name": "Jade Harris",
+    "age": 31,
+    "address": "573 Palm St, Lakeside, WI",
+    "email": "jadeh@example.com",
+    "quote": "The future belongs to those who believe in their dreams.",
+    "details": {
+      "hobbies": ["photography", "traveling"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Photography"
+      }
+    }
+  },
+  {
+    "id": "5s6t7u8v",
+    "name": "Kai Turner",
+    "age": 28,
+    "address": "684 Willow St, Riverside, CO",
+    "email": "kait@example.com",
+    "quote": "Do what you love, love what you do.",
+    "details": {
+      "hobbies": ["skiing", "snowboarding"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Sports Management"
+      }
+    }
+  },
+  {
+    "id": "9w0x1y2z",
+    "name": "Lila Adams",
+    "age": 34,
+    "address": "795 Aspen St, Mountainview, UT",
+    "email": "lilaa@example.com",
+    "quote": "The best way to predict the future is to create it.",
+    "details": {
+      "hobbies": ["hiking", "camping"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Geology"
+      }
+    }
+  },
+  {
+    "id": "3a4b5c6d",
+    "name": "Mason Reed",
+    "age": 30,
+    "address": "806 Redwood St, Hilltop, AZ",
+    "email": "masonr@example.com",
+    "quote": "Success is the sum of small efforts.",
+    "details": {
+      "hobbies": ["chess", "puzzles"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Mathematics"
+      }
+    }
+  },
+  {
+    "id": "7e8f9g0h",
+    "name": "Nora Scott",
+    "age": 27,
+    "address": "917 Sequoia St, Valleyview, NM",
+    "email": "noras@example.com",
+    "quote": "The only limit is the one you set yourself.",
+    "details": {
+      "hobbies": ["reading", "writing"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Creative Writing"
+      }
+    }
+  },
+  {
+    "id": "1i2j3k4l",
+    "name": "Owen Green",
+    "age": 32,
+    "address": "128 Sycamore St, Oceanview, OR",
+    "email": "oweng@example.com",
+    "quote": "The best way to predict the future is to invent it.",
+    "details": {
+      "hobbies": ["surfing", "kayaking"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Marine Biology"
+      }
+    }
+  },
+  {
+    "id": "5m6n7o8p",
+    "name": "Penelope Turner",
+    "age": 29,
+    "address": "239 Magnolia St, Beachside, CA",
+    "email": "penelopet@example.com",
+    "quote": "Dream big and dare to fail.",
+    "details": {
+      "hobbies": ["baking", "gardening"],
+      "education": {
+        "degree": "Associate Degree",
+        "major": "Culinary Arts"
+      }
+    }
+  },
+  {
+    "id": "9q0r1s2t",
+    "name": "Quinn Harris",
+    "age": 35,
+    "address": "340 Dogwood St, Cliffside, WA",
+    "email": "quinnh@example.com",
+    "quote": "The best revenge is massive success.",
+    "details": {
+      "hobbies": ["rock climbing", "hiking"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Geology"
+      }
+    }
+  },
+  {
+    "id": "3u4v5w6x",
+    "name": "Riley King",
+    "age": 28,
+    "address": "451 Hickory St, Forestview, MT",
+    "email": "rileyk@example.com",
+    "quote": "The secret of getting ahead is getting started.",
+    "details": {
+      "hobbies": ["bird watching", "nature photography"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Wildlife Biology"
+      }
+    }
+  },
+  {
+    "id": "7y8z9a0b",
+    "name": "Sofia Lewis",
+    "age": 33,
+    "address": "562 Poplar St, Plainsview, ND",
+    "email": "sofial@example.com",
+    "quote": "The best time to plant a tree was 20 years ago.",
+    "details": {
+      "hobbies": ["farming", "animal husbandry"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Agricultural Science"
+      }
+    }
+  },
+  {
+    "id": "1c2d3e4f",
+    "name": "Theo Adams",
+    "age": 30,
+    "address": "673 Cedar St, Desertview, NV",
+    "email": "theoa@example.com",
+    "quote": "The future belongs to those who believe in their dreams.",
+    "details": {
+      "hobbies": ["stargazing", "astronomy"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Astronomy"
+      }
+    }
+  },
+  {
+    "id": "5g6h7i8j",
+    "name": "Uma Reed",
+    "age": 31,
+    "address": "784 Pine St, Canyonview, WY",
+    "email": "umar@example.com",
+    "quote": "The best way to predict the future is to create it.",
+    "details": {
+      "hobbies": ["mountain biking", "trail running"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Exercise Science"
+      }
+    }
+  },
+  {
+    "id": "9k0l1m2n",
+    "name": "Victor Scott",
+    "age": 34,
+    "address": "895 Oak St, Summitview, SD",
+    "email": "victors@example.com",
+    "quote": "The best time to start is now.",
+    "details": {
+      "hobbies": ["gardening", "landscaping"],
+      "education": {
+        "degree": "Bachelor of Science",
+        "major": "Horticulture"
+      }
+    }
+  },
+  {
+    "id": "3o4p5q6r",
+    "name": "Willa Turner",
+    "age": 29,
+    "address": "906 Elm St, Lakeside, CA",
+    "email": "willat@example.com",
+    "quote": "Dream big and work hard.",
+    "details": {
+      "hobbies": ["photography", "traveling"],
+      "education": {
+        "degree": "Bachelor of Arts",
+        "major": "Photography"
+      }
+    }
+  }
+]
