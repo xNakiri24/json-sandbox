@@ -1,42 +1,72 @@
 :root {
-  background-color: #F5EFE7;
-  color: #112A46;
+  background-color: #f5efe7;
+  color: #112a46;
   padding: 8px;
   height: 99vh;
   width: 100%;
   box-sizing: border-box;
 }
 
-.index-container {
-  height: 99%;
-  width: 99%;
-  border: 1px solid #112A46;
-  box-sizing: border-box;
+@media (min-width: 1200px) {
+  header .title-header {
+    text-align: center;
+  }
+  header .title-header h1 {
+    color: red;
+    margin: 0;
+  }
+  main .introduction .example-code {
+    display: flex;
+  }
+  main .introduction .example-code .code {
+    flex: 1;
+  }
+  main .introduction .example-code .code pre {
+    background-color: #112a46;
+    color: #f1f5f9;
+  }
+  main .introduction .example-code .output {
+    flex: 1;
+  }
+  main .selection {
+    display: flex;
+    box-sizing: border-box;
+  }
+  main .selection .structure-wrapper-one {
+    padding-left: 8px;
+    flex: 1;
+  }
+  main .selection .structure-wrapper-one select {
+    background-color: #f5efe7;
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+  main .selection .structure-wrapper-one select option {
+    border-radius: 4px;
+  }
+  main .selection .structure-wrapper-two {
+    padding-left: 4px;
+    flex: 1;
+  }
+  main .selection .structure-wrapper-two pre {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border: 1px solid grey;
+  }
+  footer {
+    margin-top: 24px;
+  }
+  footer p {
+    margin: 0;
+  }
 }
-.index-container header {
-  border: 1px solid #112A46;
-  width: 97%;
-  text-align: center;
+@media (min-width: 801px) and (max-width: 1200px) {
+  header .title-header h1 {
+    color: blue;
+  }
 }
-.index-container header .title-header {
-  border: 1px solid white;
-  align-items: center;
-}
-.index-container main {
-  text-align: center;
-}
-.index-container footer {
-  width: 97%;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: space-around;
-}
-.index-container footer p {
-  margin-left: 45px;
-  margin-right: 45px;
-}
-.index-container footer p a {
-  color: #112A46;
-  text-decoration: none;
+@media (min-width: 320px) and (max-width: 800px) {
+  header .title-header h1 {
+    color: green;
+  }
 }/*# sourceMappingURL=styles.css.map */
