@@ -5,37 +5,241 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JSON Sandbox</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/scripts.js"></script>
   </head>
   <body class="index-container">
     <header>
       <div class="title-header">
-        <h1>Nakiri's JSON Playground</h1>
-        <p>
+        <h1>Nakiri's JSON Sandbox</h1>
+        <span>
           Free JSON datas to test your fetch or anything you call about getting
           a data from a json
-        </p>
+        </span>
       </div>
     </header>
     <main>
-      <h2>Q: Why JSON and NOT a database is used for this?</h2>
-      <span
-        >JSON is used instead of a database because it serves as a great
-        starting point for understanding data storage and retrieval. Since many
-        programming languages communicate by parsing JSON data, practicing with
-        JSON helps build a foundation for working with databases later. When
-        retrieving or inserting data into a database, it's often converted to
-        JSON format for easier handling. For simple web projects, using JSON
-        files is a practical way to store and query data, as it is readable and
-        widely supported by different programming languages.</span
-      >
+      <section class="introduction">
+        <h2>Introduction to JSON parsing</h2>
+        <p>
+          Hello! This is Nakiri Json db this website have json files that you
+          can use to practice your API that you will use for your projects
+        </p>
+        <div class="example-code">
+          <div class="code">
+            <p>This is an example code that you can use to fetch a JSON body</p>
+            <pre>
+              <code>
+                (async () =>{
+                  fetch("https://sandbox.nakiri.space/data/people.json")
+                  .then(response => response.json())
+                  .then(data => {
+                      data.forEach(user => {
+                          console.log("Name :" + user.name)
+                          console.log("Age :" + user.age)
+                      })
+                  })    
+                  .catch(error => {
+                      console.error("Error fetching data:", error);
+                  });
+                })();
+              </code>
+            </pre>
+          </div>
+          <div class="output">
+            <p>and this is an example output</p>
+            <pre>
+              Name :John Doe
+              Age :28
+              Name :Jane Smith
+              Age :34
+              Name :Alice Johnson
+              Age :22
+              Name :Bob Brown
+              Age :45
+              Name :Charlie Davis
+              Age :30
+              .....
+            </pre>
+          </div>
+        </div>
+      </section>
+      <section class="selection">
+        <div class="structure-wrapper-one">
+          <p>
+            Here is the different types of JSON structure you can use to
+            practice parsing JSON
+          </p>
+
+          <label for="codeSelector">JSON Selector: </label>
+          <select
+            name="code_selector"
+            id="codeSelector"
+            onchange="conditionalRender()"
+          >
+            <option value="people">People JSON</option>
+            <option value="zoo">Zoo JSON</option>
+            <option value="product">Product JSON</option>
+          </select>
+          <div class="structure-info">
+            <div id="infoPeople" style="display: block">
+              <h3>People JSON Structure - Level: Medium</h3>
+              <p>Top-Level Keys</p>
+              <ul>
+                <li>id</li>
+                <li>name</li>
+                <li>age</li>
+                <li>address</li>
+                <li>email</li>
+                <li>quote</li>
+                <li>details (nested objects)</li>
+              </ul>
+
+              <p>Keys inside details</p>
+              <ul>
+                <li>hobbies (array)</li>
+                <li>education (nested object)</li>
+              </ul>
+              <p>Keys inside education</p>
+              <ul>
+                <li>degree</li>
+                <li>major</li>
+              </ul>
+            </div>
+            <div id="infoZoo" style="display: none">
+              <h2>Zoo JSON Structure - Level: Easy</h2>
+              <p>Top-Level Keys</p>
+              <ul>
+                <li>id</li>
+                <li>name</li>
+                <li>species</li>
+                <li>age</li>
+                <li>habitat</li>
+                <li>diet</li>
+                <li>status</li>
+                <li>caretaker</li>
+                <li>notes</li>
+              </ul>
+            </div>
+            <div id="infoProduct" style="display: none">
+              <h2>Product JSON Structure - Level: Hard</h2>
+              <p>Top-Level Keys</p>
+              <ul>
+                <li>id</li>
+                <li>name</li>
+                <li>category</li>
+                <li>origin</li>
+                <li>price</li>
+                <li>availability</li>
+                <li>description</li>
+                <li>dimensions</li>
+                <li>materials</li>
+                <li>ingredients</li>
+                <li>reviews</li>
+              </ul>
+              <p>Keys Inside</p>
+              <ul>
+                <li>height</li>
+                <li>width</li>
+                <li>depth</li>
+              </ul>
+              <p>Keys inside each reviews object</p>
+              <ul>
+                <li>user</li>
+                <li>rating</li>
+                <li>comment</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="structure-wrapper-two">
+          <p>
+            This section shows you the look of a JSON Structure inside a file
+          </p>
+          <br />
+          <br />
+          <pre id="renderPeople" style="display: block">
+            {
+              "id": "1a2b3c",
+              "name": "John Doe",
+              "age": 28,
+              "address": "123 Main St, Springfield, IL",
+              "email": "johndoe@example.com",
+              "quote": "The only limit is your imagination.",
+              "details": {
+                "hobbies": ["reading", "hiking", "coding"],
+                "education": {
+                  "degree": "Bachelor of Science",
+                  "major": "Computer Science"
+                }
+              }
+            }
+          </pre>
+          <pre id="renderZoo" style="display: none">
+            {
+              "id": "zoo001",
+              "name": "Leo",
+              "species": "Lion",
+              "age": 5,
+              "habitat": "Savannah Enclosure",
+              "diet": "Carnivore",
+              "status": "Healthy",
+              "caretaker": "John Smith",
+              "notes": "Enjoys sunbathing and is very social with other lions."
+          }
+          
+          </pre>
+          <pre id="renderProduct" style="display: none">
+            {
+              "id": "prod001",
+              "name": "Italian Espresso Machine",
+              "category": "Home Appliances",
+              "origin": "Italy",
+              "price": 299.99,
+              "availability": "In Stock",
+              "description": "A high-quality espresso machine designed for coffee enthusiasts.",
+              "dimensions": {
+                "height": "12 inches",
+                "width": "8 inches",
+                "depth": "10 inches"
+              },
+              "materials": ["stainless steel", "plastic"],
+              "reviews": [
+                {
+                  "user": "CoffeeLover123",
+                  "rating": 5,
+                  "comment": "Best espresso machine I've ever owned!"
+                },
+                {
+                  "user": "BaristaPro",
+                  "rating": 4,
+                  "comment": "Great value for the price."
+                }
+              ]
+            }
+          </pre>
+        </div>
+      </section>
+      <section class="clarification">
+        <h2>Q: Why JSON and NOT a database is used for this?</h2>
+        <span
+          >JSON is used instead of a database because it serves as a great
+          starting point for understanding data storage and retrieval. Since
+          many programming languages communicate by parsing JSON data,
+          practicing with JSON helps build a foundation for working with
+          databases later. When retrieving or inserting data into a database,
+          it's often converted to JSON format for easier handling. For simple
+          web projects, using JSON files is a practical way to store and query
+          data, as it is readable and widely supported by different programming
+          languages.</span
+        >
+      </section>
     </main>
     <footer>
+      <p>This website is still a work in progress.</p>
       <p><a href="https://github.com/xNakiri24/">Github</a></p>
-      <p>
-        Email me at:
-        <a href="mailto:christianalupit24@outlook.com"
-          >christianalupit24@outlook.com</a
-        >
+      <p>Email me at:
+        <a href="mailto:christianalupit24@outlook.com">christianalupit24@outlook.com</a>
       </p>
       <p>Contact me at <a href="tel:+639939609498">09939609498</a></p>
     </footer>
